@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'books/recommend'
+
   get 'books/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
