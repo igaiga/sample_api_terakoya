@@ -9,7 +9,7 @@ class BooksController < ApplicationController
   def recommend
     respond_to do |format|
       format.html { render text: 'html waiwai' }
-      format.json { render json: {books: Book.informations } }
+      format.json { render json: { title: "四月は君の嘘" } }
     end
   end
 end
