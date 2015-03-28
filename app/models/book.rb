@@ -10,6 +10,6 @@ class Book
   end
 
   def self.recommend
-    self.titles.first
+    self.titles.sample
   end
 end
